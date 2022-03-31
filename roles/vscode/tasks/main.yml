@@ -1,0 +1,27 @@
+- block:
+
+  - name: make library directory
+    file:
+      path: ~/Library/Application Support/Code/User
+      state: directory
+
+  - name: basic settings
+    file:
+      src: ~/dotfiles/vscode/settings.json
+      dest: ~/Library/Application Support/Code/User/settings.json
+      state: link
+      force: yes
+
+  - name: keybindings
+    file:
+      src: ~/dotfiles/vscode/keybindings.json
+      dest: ~/Library/Application Support/Code/User/keybindings.json
+      state: link
+      force: yes
+
+  - name: install extensions
+    shell: "code --install-extension {{ item }}"
+    with_items: '{{ code_extensions }}'
+
+  tags:
+    - vscode
