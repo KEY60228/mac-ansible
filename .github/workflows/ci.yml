@@ -12,4 +12,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: install
-        run: ./init.sh
+        run: zsh ./init.sh
