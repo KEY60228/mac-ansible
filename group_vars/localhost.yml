@@ -18,7 +18,7 @@ homebrew_cask_packages:
   - name: figma
   - name: google-chrome
   - name: karabiner-elements
-  - name: logitech-options
+  - name: homebrew/cask-drivers/logitech-options
   - name: notion
   - name: slack
   - name: visual-studio-code
