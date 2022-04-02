@@ -31,7 +31,6 @@ dot_files:
   - .zprofile
 code_extensions:
   # common
-  - dbaeumer.vscode-eslint
   - formulahendry.auto-close-tag
   - hediet.vscode-drawio
   - mhutchie.git-graph
@@ -48,17 +47,20 @@ code_extensions:
   - yzane.markdown-pdf
   - yzhang.markdown-all-in-one
   # JavaScript, TypeScript, React
+  - dbaeumer.vscode-eslint
   - dsznajder.es7-react-js-snippets
   - esbenp.prettier-vscode
   - Orta.vscode-jest
-  # Go
-  - golang.go
   # GraphQL
   - GraphQL.vscode-graphql
+  # Go
+  - golang.go
+  # gRPC, Protocol Buffers
+  - zxh404.vscode-proto3
   # Terraform
   - hashicorp.terraform
   # YAML
   - redhat.vscode-commons
   - redhat.vscode-yaml
-  # gRPC, Protocol Buffers
-  - zxh404.vscode-proto3
+  # C, C++
+  - ms-vscode.cpptools
