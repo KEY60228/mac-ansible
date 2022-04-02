@@ -13,8 +13,6 @@ homebrew_packages:
   - name: go
   - name: hugo
   - name: nodenv
-  # font
-  - name: font-ricty-diminished
 homebrew_cask_packages:
   - name: 1password
   - name: docker
@@ -26,6 +24,8 @@ homebrew_cask_packages:
   - name: slack
   - name: visual-studio-code
   - name: zoom
+  # font
+  - name: font-ricty-diminished
 dot_files:
   - .gitconfig
   - .vimrc
