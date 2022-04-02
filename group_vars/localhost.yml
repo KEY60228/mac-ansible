@@ -26,6 +26,7 @@ homebrew_cask_packages:
 dot_files:
   - .gitconfig
   - .vimrc
+  - .zsh
   - .zshrc
   - .zprofile
 code_extensions:
