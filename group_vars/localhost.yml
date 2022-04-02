@@ -1,5 +1,6 @@
 homebrew_taps:
   - name: homebrew/cask
+  - name: homebrew/cask-fonts
   - name: homebrew/core
 homebrew_packages:
   # common
@@ -12,6 +13,8 @@ homebrew_packages:
   - name: go
   - name: hugo
   - name: nodenv
+  # font
+  - name: font-ricty-diminished
 homebrew_cask_packages:
   - name: 1password
   - name: docker
