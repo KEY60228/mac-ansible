@@ -7,22 +7,28 @@ homebrew_packages:
   - name: ansible
   - name: git
   - name: git-secrets
+  - name: wget
   - name: zsh-autosuggestions
   - name: zsh-completions
   # other
+  - name: git-flow-avh
   - name: go
   - name: hugo
   - name: nodenv
 homebrew_cask_packages:
-  - name: 1password
-  - name: docker
-  - name: figma
+  # common
   - name: google-chrome
   - name: karabiner-elements
   - name: homebrew/cask-drivers/logitech-options
   - name: notion
-  - name: slack
   - name: visual-studio-code
+  # other
+  - name: 1password
+  - name: dbeaver-community
+  - name: docker
+  - name: figma
+  - name: graphiql
+  - name: slack
   - name: zoom
   # font
   - name: font-ricty-diminished
