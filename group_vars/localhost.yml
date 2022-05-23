@@ -1,7 +1,10 @@
 homebrew_taps:
+  # common
   - name: homebrew/cask
   - name: homebrew/cask-fonts
   - name: homebrew/core
+  # other
+  - name: ktr0731/evans
 homebrew_packages:
   # common
   - name: ansible
@@ -15,6 +18,10 @@ homebrew_packages:
   - name: go
   - name: hugo
   - name: nodenv
+  - name: protobuf
+  - name: prototool
+  # ktr0731
+  - name: evans
 homebrew_cask_packages:
   # common
   - name: google-chrome
