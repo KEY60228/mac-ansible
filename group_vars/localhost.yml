@@ -45,6 +45,7 @@ homebrew_cask_packages:
   # font
   - name: font-ricty-diminished
 dot_files:
+  - .aliases.zsh
   - .gitconfig
   - .vimrc
   - .zsh
