@@ -16,10 +16,14 @@ homebrew_packages:
   # other
   - name: git-flow-avh
   - name: go
+  - name: helm
   - name: hugo
+  - name: istioctl
+  - name: kubernetes-cli
   - name: nodenv
   - name: protobuf
   - name: prototool
+  - name: sops
   # ktr0731
   - name: evans
 homebrew_cask_packages:
@@ -34,6 +38,7 @@ homebrew_cask_packages:
   - name: dbeaver-community
   - name: docker
   - name: figma
+  - name: google-cloud-sdk
   - name: graphiql
   - name: slack
   - name: zoom
