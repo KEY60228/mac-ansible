@@ -40,27 +40,37 @@ dot_files:
   - .zprofile
 code_extensions:
   # common
+  ### Editor
   - formulahendry.auto-close-tag
-  - hediet.vscode-drawio
-  - mhutchie.git-graph
-  - ms-azuretools.vscode-docker
   - MS-CEINTL.vscode-language-pack-ja
+  - oderwat.indent-rainbow
+  - VisualStudioExptTeam.vscodeintellicode
+  - vscode-icons-team.vscode-icons
+  ### Git
+  - eamodio.gitlens
+  - mhutchie.git-graph
+  ### DrawIO
+  - hediet.vscode-drawio
+  ### Remote
+  - ms-azuretools.vscode-docker
   - ms-vscode-remote.remote-containers
   - ms-vscode-remote.remote-ssh
   - ms-vscode-remote.remote-ssh-edit
   - ms-vscode-remote.remote-wsl
-  - oderwat.indent-rainbow
-  - VisualStudioExptTeam.vscodeintellicode
-  - vscode-icons-team.vscode-icons
+  ### Vim
   - vscodevim.vim
+  ### MarkDown
   - yzane.markdown-pdf
   - yzhang.markdown-all-in-one
+  ### LiveShare
+  - ms-vsliveshare.vsliveshare
   # JavaScript, TypeScript, React
   - dbaeumer.vscode-eslint
   - dsznajder.es7-react-js-snippets
   - esbenp.prettier-vscode
   - Orta.vscode-jest
   # GraphQL
+  - apollographql.vscode-apollo
   - GraphQL.vscode-graphql
   # Go
   - golang.go
@@ -71,5 +81,9 @@ code_extensions:
   # YAML
   - redhat.vscode-commons
   - redhat.vscode-yaml
+  # TOML
+  - bungcip.better-toml
   # C, C++
   - ms-vscode.cpptools
+  # Kubernetes
+  - ms-kubernetes-tools.vscode-kubernetes-tools
