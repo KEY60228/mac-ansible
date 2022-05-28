@@ -12,6 +12,7 @@ zsh init.sh
 ```
 
 ### その他やること
+- 不要なパッケージのコメントアウト
 - ターミナルのプロファイル設定をdotfiles/terminal/hoge.terminalから読み出す
 - ssh-keygenしてGitHubに公開鍵を置く
 - Chrome拡張機能追加
