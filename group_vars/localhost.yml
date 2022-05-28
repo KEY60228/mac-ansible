@@ -19,6 +19,8 @@ homebrew_packages:
   - name: helm
   - name: hugo
   - name: istioctl
+  - name: kind
+  - name: kubectl
   - name: kubernetes-cli
   - name: nodenv
   - name: protobuf
