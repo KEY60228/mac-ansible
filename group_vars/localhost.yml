@@ -15,6 +15,7 @@ homebrew_packages:
   - name: zsh-autosuggestions
   - name: zsh-completions
   # other
+  - name: bufbuild/buf/buf
   - name: git-flow-avh
   - name: go
   - name: golangci-lint
@@ -26,7 +27,6 @@ homebrew_packages:
   - name: kubernetes-cli
   - name: nodenv
   - name: protobuf
-  - name: prototool
   - name: sops
   # ktr0731
   - name: evans
