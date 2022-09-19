@@ -25,6 +25,7 @@ homebrew_packages:
   - name: kind
   - name: kubectl
   - name: kubernetes-cli
+  - name: libpq
   - name: nodenv
   - name: protobuf
   - name: sops
