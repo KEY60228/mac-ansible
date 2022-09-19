@@ -24,6 +24,7 @@ homebrew_packages:
   - name: istioctl
   - name: kind
   - name: kubectl
+  - name: kubectx
   - name: kubernetes-cli
   - name: libpq
   - name: nodenv
