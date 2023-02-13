@@ -8,6 +8,7 @@ homebrew_taps:
 homebrew_packages:
   # common
   - name: ansible
+  - name: gcc
   - name: git
   - name: git-secrets
   - name: jq
