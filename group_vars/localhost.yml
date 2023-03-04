@@ -43,9 +43,12 @@ homebrew_cask_packages:
   # other
   - name: 1password
   - name: dbeaver-community
+  - name: deepl
+  - name: discord
   - name: docker
   - name: figma
   - name: google-cloud-sdk
+  - name: grammarly
   - name: graphiql
   - name: slack
   - name: zoom
