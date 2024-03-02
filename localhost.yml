@@ -3,8 +3,7 @@
   gather_facts: no
   become: no
   roles:
-    - homebrew
-    - homebrew_cask
     - dotfiles
+    - homebrew
     - vscode
     - karabiner

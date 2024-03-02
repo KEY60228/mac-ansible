@@ -4,17 +4,8 @@
     homebrew:
       update_homebrew: yes
 
-  - name: homebrew tap
-    homebrew_tap:
-      name: '{{ item.name }}'
-      state: '{{ item.state | default("present") }}'
-    with_items: '{{ homebrew_taps }}'
-
-  - name: homebrew install packages
-    homebrew:
-      name: '{{ item.name }}'
-      state: '{{ item.state | default("present") }}'
-    with_items: '{{ homebrew_packages }}'
+  - name: homebrew bundle
+    shell: brew bundle --global --verbose --force
 
   tags:
     - homebrew

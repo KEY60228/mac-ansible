@@ -19,9 +19,5 @@
       state: link
       force: yes
 
-  - name: install extensions
-    shell: "code --install-extension {{ item }}"
-    with_items: '{{ code_extensions }}'
-
   tags:
     - vscode
