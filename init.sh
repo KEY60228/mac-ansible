@@ -2,9 +2,10 @@
 
 ANSIBLE_PATH=~/ansible
 
-## command line toolsとhomebrewのinstall
+## command line toolsとhomebrewのinstall&update
 xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
 
 ## architecture check
 if [ `uname -m` = "arm64" ]; then

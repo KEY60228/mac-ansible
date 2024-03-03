@@ -1,9 +1,5 @@
 - block:
 
-  - name: homebrew update
-    homebrew:
-      update_homebrew: yes
-
   - name: homebrew bundle cleanup
     shell: brew bundle cleanup --global --verbose --force
 
