@@ -7,7 +7,14 @@ jobs:
   test:
     name: Install test
     timeout-minutes: 60
-    runs-on: macos-latest
+    strategy:
+      matrix:
+        os:
+          # temporary disabled (ref: https://github.com/delphinus/homebrew-sfmono-square/issues/112#issuecomment-2001880801)
+          # - macos-13
+          - macos-14
+          - macos-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - name: checkout
         uses: actions/checkout@v2
