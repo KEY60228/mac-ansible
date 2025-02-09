@@ -4,6 +4,5 @@
   become: no
   roles:
     - dotfiles
-    - homebrew
     - vscode
     - karabiner

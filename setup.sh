@@ -19,3 +19,7 @@ brew install ansible
 
 ## repositoryのclone
 git clone https://github.com/KEY60228/mac-ansible.git ${ANSIBLE_PATH}
+
+## ansibleの実行
+cd ${ANSIBLE_PATH}
+ansible-playbook -i inventory/localhost localhost.yml

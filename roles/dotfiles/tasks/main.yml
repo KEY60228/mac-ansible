@@ -1,10 +1,5 @@
 - block:
 
-  - name: checkout dotfiles
-    git:
-      repo: https://github.com/KEY60228/dotfiles.git
-      dest: ~/dotfiles
-
   - name: create symbolic links
     file:
       src: ~/dotfiles/{{ item }}

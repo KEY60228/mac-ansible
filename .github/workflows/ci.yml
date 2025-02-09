@@ -18,5 +18,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: install
-        run: zsh ./init.sh
+      - name: setup
+        run: zsh ./setup.sh
+      - name: brew bundle
+        run: zsh ./brew.sh
