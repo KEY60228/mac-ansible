@@ -20,6 +20,9 @@ brew install ansible
 ## repositoryのclone
 git clone https://github.com/KEY60228/mac-ansible.git ${ANSIBLE_PATH}
 
+## キー入力のデフォルト設定
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 ## ansibleの実行
 cd ${ANSIBLE_PATH}
 ansible-playbook -i inventory/localhost localhost.yml
