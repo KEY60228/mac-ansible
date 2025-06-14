@@ -2,6 +2,7 @@ dotfiles:
   - .aliases.zsh
   - .Brewfile
   - .gitconfig
+  - .tmux.conf
   - .vimrc
   - .zsh
   - .zshrc
