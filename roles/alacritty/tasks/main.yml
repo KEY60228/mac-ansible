@@ -1,0 +1,23 @@
+- block:
+
+  - name: make .config directory
+    file:
+      path: ~/.config/alacritty
+      state: directory
+
+  - name: create symbolic links
+    file:
+      src: ~/dotfiles/alacritty/alacritty.toml
+      dest: ~/.config/alacritty/alacritty.toml
+      state: link
+      force: yes
+
+  - name: clone alacritty theme repository
+    git:
+      repo: https://github.com/alacritty/alacritty-theme.git
+      dest: ~/.config/alacritty/themes
+      version: master
+      force: yes
+
+  tags:
+    - alacritty
