@@ -32,8 +32,20 @@ if [ ! -d "${ANSIBLE_PATH}" ]; then
     git clone https://github.com/KEY60228/mac-ansible.git ${ANSIBLE_PATH}
 fi
 
-## キー入力のデフォルト設定
+## キー長押しで連続入力できるようにする
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+## Spotlightのショートカットキーを無効化
+defaults write -g com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 '{enabled = 0; value = { parameters = (); type = "standard"; }; }'
+
+## 音声入力ショートカットを無効化
+defaults write -g com.apple.speech.recognition.AppleSpeechRecognitionData "HotKey" -int 0
+
+## リピート速度を設定 (値は1から120の範囲)
+defaults write -g KeyRepeat -int 2
+
+## リピートの遅延を設定 (値は0から120の範囲)
+defaults write -g InitialKeyRepeat -int 15
 
 ## ansibleの実行
 cd ${ANSIBLE_PATH}
