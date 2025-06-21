@@ -4,6 +4,5 @@ dotfiles:
   - .gitconfig
   - .tmux.conf
   - .vimrc
-  - .zsh
   - .zshrc
   - .zprofile

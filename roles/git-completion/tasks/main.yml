@@ -1,0 +1,28 @@
+- block:
+
+  - name: create .zsh directory
+    file:
+      path: ~/.zsh
+      state: directory
+      mode: '0755'
+
+  - name: download git-prompt.sh
+    get_url:
+      url: https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+      dest: ~/.zsh/git-prompt.sh
+      mode: '0644'
+  
+  - name: download git-completion.bash
+    get_url:
+      url: https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+      dest: ~/.zsh/git-completion.bash
+      mode: '0644'
+
+  - name: download git-completion.zsh
+    get_url:
+      url: https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+      dest: ~/.zsh/_git
+      mode: '0644'
+
+  tags:
+    - git-completion
