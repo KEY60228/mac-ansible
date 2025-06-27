@@ -6,6 +6,7 @@
     - git-completion
     - dotfiles
     - neovim
+    - vscode
     - cursor
     - karabiner
     - alacritty
