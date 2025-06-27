@@ -5,6 +5,7 @@
   roles:
     - git-completion
     - dotfiles
+    - neovim
     - cursor
     - karabiner
     - alacritty

@@ -1,0 +1,16 @@
+- block:
+
+  - name: make .config directory
+    file:
+      path: ~/.config/nvim
+      state: directory
+
+  - name: create symbolic links
+    file:
+      src: ~/dotfiles/nvim
+      dest: ~/.config/nvim
+      state: link
+      force: yes
+  
+  tags:
+    - neovim
